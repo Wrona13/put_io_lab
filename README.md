@@ -2,3 +2,4 @@
 #weronik radzi 141303
 data
 pierwsza zmiana
+druga zmiana
