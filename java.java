@@ -1,5 +1,4 @@
 #komentarz
-#1S
 #trzecie
 public class SwapNumbers {
 
