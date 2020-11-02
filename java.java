@@ -5,7 +5,7 @@ public class SwapNumbers {
 
         float first = 1.20f, second = 2.45f;
 
-        System.out.println("--Before gthe swap--");
+        System.out.println("--Before the swap--");
         System.out.println("First number is " + first);
         System.out.println("Second number = " + second);
 
@@ -13,13 +13,13 @@ public class SwapNumbers {
         float temporary = first;
 
         // Value of second is assigned to first
-        first = second+1;
+        first = second+20;
 
         System.out.println("changing numbrs");
         // Value of temporary (which contains the initial value of first) is assigned to second
         second = temporary;
 
         System.out.println("--After the swap--");
-        System.out.println("First number+1 = " + first);
+        System.out.println("First number+20 = " + first);
         System.out.println("Second number = " + second);
     }}
