@@ -1,5 +1,6 @@
 #komentarz
 #1
+#2
 public class SwapNumbers {
 
     public static void main(String[] args) {
