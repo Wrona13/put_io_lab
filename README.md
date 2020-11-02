@@ -1,6 +1,6 @@
 # 04-git
 #weronik radzi 141303
-data
+dta
 pierwsza zmiana
 druga zmiana
 3
