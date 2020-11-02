@@ -1,3 +1,4 @@
+
 public class SwapNumbers {
 
     public static void main(String[] args) {
@@ -20,5 +21,5 @@ public class SwapNumbers {
         System.out.println("--After swap--");
         System.out.println("First number = " + first);
         System.out.println("Second number = " + second);
-    }
-}
+    }}
+
