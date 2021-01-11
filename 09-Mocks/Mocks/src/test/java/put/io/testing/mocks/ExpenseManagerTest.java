@@ -53,8 +53,8 @@ public class ExpenseManagerTest {
 
 
         ExpenseManager _manager = new ExpenseManager(_fancyService,_rep);
-        assertEquals(_manager.calculateTotalForCategory("Food"),0);
-        assertEquals(_manager.calculateTotalForCategory("Sport"),0);
+        assertEquals(0,_manager.calculateTotalForCategory("Food"));
+        assertEquals(0,_manager.calculateTotalForCategory("Sport"));
 
         System.out.println(_manager.calculateTotalForCategory("Home"));
         System.out.println(_manager.calculateTotalForCategory("Car"));
@@ -64,10 +64,7 @@ public class ExpenseManagerTest {
     void testcalculateTotalInDollars() throws ConnectException{
         MyRepository _rep= new MyRepository();
         ExpenseManager _manager = new ExpenseManager(new MyService(),_rep);
-        Expense ex1=new Expense();
         System.out.println(_manager.calculateTotal());
-        ex1.setAmount(1);
-        ex1.setCategory("Home");
         assertEquals(3,_manager.calculateTotalInDollars());
     }
 }
