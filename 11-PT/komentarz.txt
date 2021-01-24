@@ -1,0 +1,11 @@
+zad1: 	czas średni: 	przepustowość:
+pod1:	22984		24,6/min
+pod2:	17733		4,1/sec
+Zamiast wywoływać funkcję averageSpending() przy każdej iteracji ulokowałam ją w zmiennej.
+
+zad2:	śr: 	min:	max:	przep:
+10:	21242	20000	46322	1,8/sec
+20:	19450	5004	20055	1,8/sec
+30:	19440	2006	20055	1,8/sec
+
+Powniino być 20 drukarek. Pomiędzy 10 a 20 jest różnica, ale dalej różnica jest już nieznaczna.
